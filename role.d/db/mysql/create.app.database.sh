@@ -32,7 +32,7 @@ if [ "${4}" = "-c" ] ; then
         echo "mysql://${userName}:${dbUserPassword}@${databaseHost}:3306/${databaseName}"     
 else
         echo "Database created"
-        echo "You can now connect to ${databaseName} @ ${databaseHost}${databaseHost}  from ${clientHost} using:"
+        echo "You can now connect to ${databaseName} @ ${databaseHost} from ${clientHost} using:"
         echo "Username: ${userName}"
         echo "Password: ${dbUserPassword}"
 fi
