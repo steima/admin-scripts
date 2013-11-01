@@ -11,4 +11,5 @@ if [ -d "${configurationDir}" ] ; then
 	echo "Upgrading existing installation"
 else
 	echo "New"
+	mkdir -p "${configurationDir}"
 fi
