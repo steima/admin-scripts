@@ -8,4 +8,4 @@ message gets removed!
 
 Setup:
 
-wget https://raw.github.com/steima/admin-scripts/master/bin/setup.sh -v -O setup.sh --no-check-certificate && chmod +x ./setup.sh && ./setup.sh && rm -rf setup.sh
+`wget https://raw.github.com/steima/admin-scripts/master/bin/setup.sh -v -O setup.sh --no-check-certificate && chmod +x ./setup.sh && ./setup.sh && rm -rf setup.sh`
